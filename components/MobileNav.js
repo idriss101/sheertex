@@ -8,7 +8,7 @@ import AccountIcon from "./AccountIcon";
 function MobileNav() {
   return (
     <div>
-      <nav className="fixed w-full bg-white lg:hidden xl:hidden 2xl:hidden">
+      <nav className="fixed w-full bg-white lg:hidden xl:hidden 2xl:hidden z-50">
         <AnnouncementBar />
         <div className="flex justify-between items-center p-5 border-b-2 lg:">
           <div className="flex">

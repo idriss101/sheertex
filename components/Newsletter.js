@@ -9,7 +9,7 @@ function Newsletter() {
         </p>
         <div className="flex items-center">
           <input
-            type="text"
+            type="email"
             placeholder="Your Email"
             className="mb-6 pb-2 bg-sheertex-green border-b border-black w-full placeholder:uppercase placeholder:text-gray-500"
           />
