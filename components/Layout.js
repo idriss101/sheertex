@@ -4,9 +4,7 @@ function Layout({ children }) {
   return (
     <>
       <NavBar />
-      <div>
-        <main>{children}</main>
-      </div>
+      <main>{children}</main>
     </>
   );
 }
