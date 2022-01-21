@@ -8,20 +8,22 @@ import AccountIcon from "./AccountIcon";
 
 function NavBar() {
   return (
-    <nav>
+    <>
       <AnnouncementBar />
-      <div className="flex justify-between items-center p-5 border-b-2">
-        <div className="flex">
-          <HamburgerIcon />
-          <SearchIcon />
+      <nav>
+        <div className="flex justify-between items-center p-5 border-b-2">
+          <div className="flex">
+            <HamburgerIcon />
+            <SearchIcon />
+          </div>
+          <SheertexIcon />
+          <div className="flex">
+            <CartIcon />
+            <AccountIcon />
+          </div>
         </div>
-        <SheertexIcon />
-        <div className="flex">
-          <CartIcon />
-          <AccountIcon />
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 }
 
