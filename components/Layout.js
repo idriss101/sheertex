@@ -1,9 +1,9 @@
-import AnnouncementBar from "./AnnouncementBar";
+import NavBar from "./NavBar";
 
 function Layout({ children }) {
   return (
     <>
-      <AnnouncementBar />
+      <NavBar />
       <div>
         <main>{children}</main>
       </div>

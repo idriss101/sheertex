@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.466" height="25.5" viewBox="0 0 26.466 25.5">
+  <g id="shopping" transform="translate(0 0.5)">
+    <g id="Group_201" data-name="Group 201">
+      <path id="Path_1090" data-name="Path 1090" d="M1699.886,28h3.882l3.411,17.816h15.888" transform="translate(-1699.886 -28)" fill="none" stroke="#171717" stroke-width="1"/>
+      <path id="Path_1091" data-name="Path 1091" d="M1706.714,43.638h16.749l2.292-12.664H1704.3" transform="translate(-1699.886 -28)" fill="none" stroke="#171717" stroke-width="1"/>
+    </g>
+    <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(8.114 20)" fill="none" stroke="#171717" stroke-width="0.8">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="2.1" fill="none"/>
+    </g>
+    <g id="Ellipse_26" data-name="Ellipse 26" transform="translate(17.114 20)" fill="none" stroke="#171717" stroke-width="0.8">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="2.1" fill="none"/>
+    </g>
+    <text id="_0" data-name="0" transform="translate(15.114 12)" fill="#171717" font-size="8" font-family="Helvetica"><tspan x="-2.225" y="0">0</tspan></text>
+  </g>
+</svg>
