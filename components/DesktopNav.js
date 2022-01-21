@@ -9,7 +9,7 @@ function DesktopNav() {
     <>
       <nav className="fixed w-full bg-white hidden lg:block">
         <AnnouncementBar />
-        <div className="flex justify-between items-center p-5 border-b-2 lg:mx-10 lg:border-0">
+        <div className="flex justify-between items-center p-5 border-b-2 lg:w-5/6 lg:my-0 lg:mx-auto lg:border-0">
           <div className="flex">
             <ul className="flex">
               <li className="text-sm uppercase font-bold mr-5">Tights</li>
