@@ -3,7 +3,7 @@ import SellingPoint from "./SellingPoint";
 
 function SellingPoits() {
   return (
-    <section className="flex flex-col items-center pt-10 bg-neutral-100">
+    <section className="flex flex-col items-center pt-32 bg-neutral-100 sm:flex-row sm:items-center">
       <SellingPoint
         header="Free Shipping"
         text="Same day shipping is included on all orders"

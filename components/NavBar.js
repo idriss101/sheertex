@@ -9,8 +9,8 @@ import AccountIcon from "./AccountIcon";
 function NavBar() {
   return (
     <>
-      <AnnouncementBar />
-      <nav>
+      <nav className="fixed w-full bg-white">
+        <AnnouncementBar />
         <div className="flex justify-between items-center p-5 border-b-2">
           <div className="flex">
             <HamburgerIcon />
