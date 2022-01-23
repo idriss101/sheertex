@@ -1,6 +1,6 @@
 import SellingPoint from "./SellingPoint";
 
-function SellingPoits() {
+function SellingPoints() {
   return (
     <section className="bg-neutral-100 pt-32 lg:pt-40 lg:pb-20 ">
       <div className="flex flex-col items-center sm:flex-row sm:items-center sm:justify-around lg:w-4/6 lg:my-0 lg:mx-auto">
@@ -25,4 +25,4 @@ function SellingPoits() {
   );
 }
 
-export default SellingPoits;
+export default SellingPoints;

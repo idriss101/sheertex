@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         "sheertex-green": "#DDFF98",
+        "sheertex-grey": "#E8E9F2",
       },
     },
   },

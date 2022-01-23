@@ -1,4 +1,3 @@
-import React from "react";
 import Newsletter from "../components/Newsletter";
 import FooterBlock from "./FooterBlock";
 import { FaInstagram } from "react-icons/fa";
@@ -12,7 +11,7 @@ function DesktopFooter() {
         <footer className="flex justify-between px-24 py-5 w-5/6">
           <FooterBlock
             header="About"
-            links={["Our Story", "Our knit", "reviews", "FAQ", "Careers"]}
+            links={["Our Story", "Our Knit", "Reviews", "FAQ", "Careers"]}
           />
           <FooterBlock
             header="Shop"
@@ -39,8 +38,12 @@ function DesktopFooter() {
       <div className=" hidden lg:flex w-full items-center my-0 mx-auto justify-around">
         <div className="">
           <p className="text-xs flex items-center">
-            Select your currency{" "}
-            <img src="/currency.svg" alt="" className="w-16 mt-1" />
+            Select your currency
+            <img
+              src="/currency.svg"
+              alt=""
+              className="w-16 mt-1 cursor-pointer"
+            />
           </p>
         </div>
         <div className="flex justify-around">

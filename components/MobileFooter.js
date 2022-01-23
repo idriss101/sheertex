@@ -1,4 +1,3 @@
-import React from "react";
 import Newsletter from "./Newsletter";
 import FooterBlock from "./FooterBlock";
 import { FaInstagram } from "react-icons/fa";
@@ -12,7 +11,7 @@ function MobileFooter() {
       <footer className="flex flex-wrap justify-between px-10 py-5">
         <FooterBlock
           header="About"
-          links={["Our Story", "Our knit", "reviews", "FAQ", "Careers"]}
+          links={["Our Story", "Our Knit", "Reviews", "FAQ", "Careers"]}
         />
         <FooterBlock
           header="Shop"

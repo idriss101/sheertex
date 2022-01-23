@@ -11,12 +11,13 @@ function Newsletter() {
           <input
             type="email"
             placeholder="Your Email"
-            className="mb-6 pb-2 bg-sheertex-green border-b border-black w-full placeholder:uppercase placeholder:text-gray-500"
+            className="mb-6 pb-2 bg-sheertex-green border-b border-black w-full placeholder:uppercase placeholder:text-gray-500 focus:outline-0 focus:border-white transition-all"
           />
           <img
             src="/arrow.svg"
             alt=""
             style={{ marginBottom: "30px", marginLeft: "-30px" }}
+            className="cursor-pointer"
           />
         </div>
       </div>

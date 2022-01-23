@@ -1,10 +1,4 @@
-import React from "react";
-import CartIcon from "./CartIcon";
-import HamburgerIcon from "./HamburgerIcon";
-import SearchIcon from "./SearchIcon";
-import SheertexIcon from "./SheertexIcon";
 import AnnouncementBar from "./AnnouncementBar";
-import AccountIcon from "./AccountIcon";
 function MobileNav() {
   return (
     <div>
@@ -12,13 +6,33 @@ function MobileNav() {
         <AnnouncementBar />
         <div className="flex justify-between items-center p-5 border-b-2 lg:">
           <div className="flex">
-            <HamburgerIcon />
-            <SearchIcon />
+            <img
+              src="/hamburger-menu.svg"
+              alt=""
+              className="w-8 mt-2 mr-5 cursor-pointer"
+            />
+            <img
+              src="/search-icon.svg"
+              alt=""
+              className="w-6 mt-1 lg:mt-0 lg:mr-4 cursor-pointer"
+            />
           </div>
-          <SheertexIcon />
+          <img
+            src="/sheertex-logo.svg"
+            alt="Sheertex logo"
+            className="cursor-pointer"
+          />
           <div className="flex lg:items-center lg:justify-between lg:w-80">
-            <CartIcon />
-            <AccountIcon />
+            <img
+              src="/cart-icon.svg"
+              alt="Cart icon"
+              className="w-6 cursor-pointer"
+            />
+            <img
+              src="/account-icon.svg"
+              alt=""
+              className="ml-5 lg:ml-4 cursor-pointer"
+            />
           </div>
         </div>
       </nav>

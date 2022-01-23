@@ -1,5 +1,3 @@
-import React from "react";
-
 function SellingPoint({ header, text, image }) {
   return (
     <div className="flex flex-col items-center mb-10 text-center">
